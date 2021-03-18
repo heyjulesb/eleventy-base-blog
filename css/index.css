@@ -38,3 +38,11 @@ aside {
   width: 100%;
   height: 100%;
 }
+
+@media screen and (max-width: 767px) {
+  main,
+  aside {
+    width: 100%;
+  }
+
+}
