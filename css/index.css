@@ -11,3 +11,15 @@ header img {
 .nav li {
   padding: 30px;
 }
+
+main {
+  width: calc(66.666%);
+  padding: 30px;
+  float: left;
+}
+
+aside {
+  width: calc(33.333%);
+  padding: 30px;
+  float: left;
+}
