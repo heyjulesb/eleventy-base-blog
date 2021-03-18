@@ -62,9 +62,12 @@
 </div>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-      <h2> Jules is cool </h2>
       {{ content | safe }}
     </main>
+    <aside>
+      <p>Morbi ullamcorper, arcu non semper tincidunt, nibh nisi vehicula quam, quis laoreet tellus turpis id lacus. Curabitur mattis non lectus id volutpat. Etiam fermentum sem sapien, eget dignissim erat fringilla et. Quisque ultricies nibh diam, eu cursus risus commodo non.</p>
+
+    </aside>
 
     <footer></footer>
     <script src="{{ '/js/bootstrap.min.js' | url }}"> </script>
